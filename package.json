@@ -1,0 +1,8 @@
+{
+  "name": "@itsjavi/modern-css-reset",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "src/*.css"
+  ]
+}
