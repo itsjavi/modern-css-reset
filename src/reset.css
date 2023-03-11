@@ -13,6 +13,7 @@
   --font-mono--default: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --font-size--default: 16px;
   --line-height--default: 1.5;
+  --color-link--default: #1fa7fd;
 }
 
 /* Set box sizing rules for all elements */
@@ -51,6 +52,10 @@ html {
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
+}
+
+a {
+  color: var(--color-link--default);
 }
 
 /* Set core body defaults */
